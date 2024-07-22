@@ -40,4 +40,3 @@ class AuthorPermissionMixin(ModelViewSet):
                     'Вы можете удалять только собственные комментарии!'
                 )
         instance.delete()
-
